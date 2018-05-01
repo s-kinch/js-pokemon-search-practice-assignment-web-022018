@@ -1,6 +1,54 @@
 pokemon.forEach(poke => poke["flipped"] = false)
 
 document.addEventListener("DOMContentLoaded", function() {
+//
+// 
+// const container = document.getElementById("pokemon-container")
+// const input = document.getElementById("pokemon-search-input")
+//   input.addEventListener('input', function(e){
+//     if (input.value === ""){
+//       container.innerHTML = `<p><center>There are no Pokémon here</center></p>`
+//     } else {
+//       renderAll(input.value)
+//     }
+//   })
+//
+//
+//
+//
+// function renderAll(input){
+//   console.log("yeah")
+//   container.innerHTML = pokemon.filter(poke => poke.name.includes(input)).map(poke => {return render(poke)}).join("")
+//
+//
+// }
+//
+// function render(input){
+//
+//
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   const input = document.getElementById('pokemon-search-input')
 
@@ -44,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }).join("")
   }
 
-
+  //
 
 
 })
